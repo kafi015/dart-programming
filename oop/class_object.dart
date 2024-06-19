@@ -21,9 +21,9 @@ class Monitor {
     print(model);
   }
 
-  int _calculatePixels() {
-    return 4354534 *4534;
-  }
+  // int _calculatePixels() {
+  //   return 4354534 *4534;
+  // }
 
   static String getSampleData() {
     return 'dummy';
