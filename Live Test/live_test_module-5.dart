@@ -24,3 +24,13 @@ void main() {
   Song song = Song('G. M. Abdullah Al-Kafi');
   song.play();
 }
+
+
+/*
+
+OUTPUT
+
+Playing media...
+Playing song by G. M. Abdullah Al-Kafi...
+
+*/
