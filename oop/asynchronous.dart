@@ -21,8 +21,8 @@ Future<int> sum(int a, int b) async {
 }
 
 Future<void> main() async {
-  // anotherMethod();
-  // doSomething();
+   anotherMethod();
+   doSomething();
   int result = await sum(12, 23);
   print(result);
 }
