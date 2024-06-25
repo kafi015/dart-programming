@@ -1,5 +1,7 @@
 // import 'class_object.dart';
-import 'person.dart';
+
+import 'getter_setter.dart';
+
 
 void main() {
   // instance/object : className object-name = className()
@@ -16,6 +18,15 @@ void main() {
   // print(Monitor.sample);
   // print(Monitor.getSampleData());
 
-  Person tamim = Person('Tamim', 'Dhaka', 34);
-  tamim.printName();
+  // Person tamim = Person('Tamim', 'Dhaka', 34);
+  // tamim.printName();
+
+  Worker rifat = Worker();
+  rifat.company;
+  rifat.designation;
+  print(rifat.salary);
+
+  // setter method with keyword
+  rifat.salary = 33000;
+  print(rifat.salary);
 }

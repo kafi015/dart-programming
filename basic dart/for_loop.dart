@@ -39,6 +39,7 @@ void main() {
     print('Student name : $student');
   }
 
+  //for each
   students.forEach((stu) {
     print(stu);
   });

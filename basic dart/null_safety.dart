@@ -15,7 +15,8 @@ void main() {
   //   print(myName);
   // }
   print(myName ?? 'Hello'); // default / soft unwrap
-  print(myName!); // force unwrap
+  
+ // print(myName!); // force unwrap //error because of myName has no value
 
   myName = 'Hasib';
   print(myName);
