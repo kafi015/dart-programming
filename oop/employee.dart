@@ -7,6 +7,9 @@ abstract class Employee {
   void attendMeeting();
 }
 
+//The implement keyword is used to implement an interface 
+// by forcing the redefinition of the functions.
+
 class SoftwareEngineer implements Employee {
   @override
   void attendMeeting() {
